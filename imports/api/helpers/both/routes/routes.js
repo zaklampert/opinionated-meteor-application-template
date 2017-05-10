@@ -16,9 +16,7 @@ export const routes = {
   },
   APP_LOGIN: {
     path: '/login',
-  },
-  APP_REGISTER: {
-    path: '/register',
+    action: () => defaultBlazeRender('AUTH_PAGE'),
   },
 };
 
