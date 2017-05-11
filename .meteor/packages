@@ -32,9 +32,8 @@ sacha:spin
 
 # Account management
 useraccounts:core
-useraccounts:unstyled
+useraccounts:semantic-ui
 accounts-password@1.3.5
-useraccounts:flow-routing
 
 # Routing
 kadira:flow-router

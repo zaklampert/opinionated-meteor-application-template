@@ -2,7 +2,6 @@ import { Meteor } from 'meteor/meteor';
 import { Template } from 'meteor/templating';
 import { _ } from 'meteor/underscore';
 import { Router } from 'meteor/justinr1234:lib';
-import { FlowRouter } from 'meteor/kadira:flow-router';
 
 
 const HEADER_HELPERS = {
@@ -15,8 +14,6 @@ const HEADER_HELPERS = {
 const HEADER_EVENTS = {
   'click #logout'() {
     Meteor.logout();
-    // QUESTION: Does JustinRouter have a push function? (zl)
-    FlowRouter.go('login');
   },
 };
 
