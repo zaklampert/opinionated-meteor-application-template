@@ -19,6 +19,10 @@ export const routes = {
   EXAMPLE_EDIT: {
     path: '/example/:_id',
   },
+  APP_LOGIN: {
+    path: '/login',
+    action: () => defaultBlazeRender('AUTH_PAGE'),
+  },
 };
 
 Router.addRoutes(routes);

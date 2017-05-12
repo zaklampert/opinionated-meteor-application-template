@@ -3,7 +3,7 @@
   "private": false,
   "scripts": {
     "start": "meteor --no-release-check --settings ./config/settings.development.json ",
-    "start-dev": "DEBUG=* meteor --no-release-check --settings ./config/settings.development.json --port 8008",
+    "start-dev": "DEBUG=* meteor --no-release-check --settings ./config/settings.development.json",
     "lint": "eslint .",
     "test": "meteor test --driver-package practicalmeteor:mocha --port 3100",
     "test-watch": "TEST_BROWSER_DRIVER=chrome TEST_WATCH=1 meteor test --driver-package dispatch:mocha --port 3100",

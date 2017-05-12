@@ -14,10 +14,6 @@ export const routes = {
   HOME_PAGE: {
     path: '/home',
   },
-  APP_LOGIN: {
-    path: '/login',
-    action: () => defaultBlazeRender('AUTH_PAGE'),
-  },
 };
 
 export const notFound = {
