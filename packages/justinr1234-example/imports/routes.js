@@ -21,8 +21,21 @@ export const routes = {
   },
   APP_LOGIN: {
     path: '/login',
-    action: () => defaultBlazeRender('AUTH_PAGE'),
+    action: () => defaultBlazeRender('APP_LOGIN'),
   },
+  APP_REGISTER: {
+    path: '/register',
+    action: () => defaultBlazeRender('APP_REGISTER'),
+  },
+  // TODO: forgot and reset passwords
+  // APP_FORGOT_PASSWORD: {
+  //   path: '/forgot-password',
+  //   action: () => defaultBlazeRender('APP_FORGOT_PASSWORD'),
+  // },
+  // APP_RESET_PASSWORD: {
+  //   path: '/reset-password/:token',
+  //   action: () => defaultBlazeRender('APP_RESET_PASSWORD'),
+  // },
 };
 
 Router.addRoutes(routes);
